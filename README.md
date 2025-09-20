@@ -92,7 +92,6 @@ To run locally:
 2. Go to [Netlify](https://www.netlify.com/), log in, and **New Site from Git**.
 3. Connect your GitHub repo and deploy the main branch.
 4. Netlify will provide a **live URL**.
-   Replace the placeholder in this README under **Live Demo**.
 
 ---
 
@@ -107,13 +106,3 @@ To run locally:
 ### 👩‍💻 Author
 
 Created by *Jeanne Kilimo* as part of a **Web Development Final Assignment**.
-
-```
-
----
-
-### ✅ Next Step
-After deploying on **Netlify**, edit the link in the  
-`[View Live Website](https://YOUR-NETLIFY-URL.netlify.app)`  
-section with your actual **Netlify domain**.
-```
