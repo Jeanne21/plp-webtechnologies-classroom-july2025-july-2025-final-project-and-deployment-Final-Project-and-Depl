@@ -79,9 +79,10 @@ To run locally:
 ````
 
 2. **Open in Browser**
-
+   ```bash
    * Simply double-click `index.html`
    * Or use a live server extension in VS Code.
+````
 
 ---
 
