@@ -1,90 +1,118 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🪑 SecondHand Furniture – Multi-Page Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+A responsive, interactive **second-hand furniture store website** built with **HTML5**, **CSS3**, and **JavaScript**.  
+This project showcases a 4-page website with reusable layouts, animations, and interactive elements.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🌐 Live Demo
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+The site is deployed on **Netlify** and accessible here:  
+👉 [View Live Website](https://secondhandfurniture.netlify.app/)  
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📑 Project Overview
 
-Before deployment, refactor your project to follow production-friendly practices:
+This project was created as a **final web development assignment** to bring together:
+- Semantic **HTML5** structure
+- Responsive **CSS3** styling and layout
+- Interactive **JavaScript** functionality
+- Proper file organization and deployment to production
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+### Website Purpose
+The website promotes **sustainable living** by giving used furniture a second life.  
+Users can explore the store’s mission, browse products, and contact the team.
 
 ---
 
-## Deliverables
+## 📂 Pages & Features
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+| Page       | Description | Interactivity |
+|------------|-------------|---------------|
+| **Home** (`index.html`) | Hero section with call-to-action and key features | Responsive navigation |
+| **About** (`about.html`) | Company mission & team section | **Accordion toggle** to reveal team member details |
+| **Shop** (`shop.html`) | Product catalog with sample furniture items | **Category filter** to show/hide products dynamically |
+| **Contact** (`contact.html`) | Contact form for inquiries | Form validation + alert confirmation |
 
 ---
 
-## Outcome
+## 🗂️ Folder Structure
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+```
+
+secondhand-furniture/
+│
+├─ index.html
+├─ about.html
+├─ shop.html
+├─ contact.html
+│
+├─ styles/
+│   └─ style.css         # All styles
+│
+├─ js/
+│   └─ script.js           # Accordion, filter, form logic
+│
+└─ images/               # Product images
+
+````
+
+---
+
+## ⚡ Technologies Used
+- **HTML5** – Semantic markup
+- **CSS3** – Responsive layout, basic animations
+- **JavaScript (ES6)** – DOM manipulation for interactivity
+- **Netlify** – Hosting & deployment
+
+---
+
+## 🛠️ Setup & Usage
+
+To run locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Jeanne21/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
+````
+
+2. **Open in Browser**
+
+   * Simply double-click `index.html`
+   * Or use a live server extension in VS Code.
+
+---
+
+## 🚀 Deployment (Netlify)
+
+1. Push your project to GitHub.
+2. Go to [Netlify](https://www.netlify.com/), log in, and **New Site from Git**.
+3. Connect your GitHub repo and deploy the main branch.
+4. Netlify will provide a **live URL**.
+   Replace the placeholder in this README under **Live Demo**.
+
+---
+
+## ✨ Future Enhancements
+
+* Add a shopping cart system
+* Implement real product database
+* Add animations on scroll for a more dynamic feel
+
+---
+
+### 👩‍💻 Author
+
+Created by *Jeanne Kilimo* as part of a **Web Development Final Assignment**.
+
+```
+
+---
+
+### ✅ Next Step
+After deploying on **Netlify**, edit the link in the  
+`[View Live Website](https://YOUR-NETLIFY-URL.netlify.app)`  
+section with your actual **Netlify domain**.
+```
